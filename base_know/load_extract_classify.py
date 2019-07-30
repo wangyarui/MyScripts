@@ -17,6 +17,15 @@ from sklearn import preprocessing
 
 import pickle  # python 3
 
+def get_files(path, rule):
+    all = []
+    for fpathe,dirs,fs in os.walk(path):
+        for f in fs:
+            filename = os.path.join(fpathe,f)
+            if filename.endswith(rule):
+                all.append(filename)
+    return all
+
 
 def load_training_data(input_folder):
     training_data = []
