@@ -44,6 +44,11 @@ class Hog_descriptor():
                     normalize = lambda block_vector, magnitude: [element / magnitude for element in block_vector]
                     block_vector = normalize(block_vector, magnitude)
                 hog_vector.append(block_vector)
+
+        # cv2.namedWindow('testt', cv2.WINDOW_NORMAL)
+        # cv2.imshow("testt",hog_image)
+        # cv2.waitKey(0)
+
         return hog_vector, hog_image
 
     def global_gradient(self):
@@ -97,7 +102,6 @@ if __name__ == '__main__':
     print(np.array(vector).shape)
     plt.imshow(image, cmap=plt.cm.gray)
     plt.show()
-
 
     # cv2.namedWindow('testt', cv2.WINDOW_NORMAL)
     # cv2.imshow("testt",src_img)
