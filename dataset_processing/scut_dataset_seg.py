@@ -9,6 +9,7 @@ def get_files(path, rule):
     for fpathe,dirs,fs in os.walk(path):
         for f in fs:
             filename = os.path.join(fpathe,f)
+            # if filename.endswith(('.jpg', '.bmp', '.png')):
             if filename.endswith(rule):
                 all.append(filename)
     return all

@@ -3,7 +3,6 @@ import numpy as np
 import math
 import matplotlib.pyplot as plt
 
-
 class Hog_descriptor():
     def __init__(self, img, cell_size=16, bin_size=8):
         self.img = img
@@ -105,5 +104,5 @@ if __name__ == '__main__':
 
     # cv2.namedWindow('testt', cv2.WINDOW_NORMAL)
     # cv2.imshow("testt",src_img)
-    # cv2.waitKey(0)
+    # cv2.waitKey(0)`
     print('test')
