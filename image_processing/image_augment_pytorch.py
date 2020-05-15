@@ -10,6 +10,7 @@ image_transforms = transforms.Compose([
         # transforms.Normalize((.5, .5, .5), (.5, .5, .5))
     ])
 
+
 transform_toimage = transforms.Compose([
     transforms.ToPILImage()
 ])

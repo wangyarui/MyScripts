@@ -2,7 +2,6 @@
 #coding:utf-8
 
 '''resize图片且保持原始的图片长宽比尺寸'''
-
 import cv2
 
 def resize_img_keep_ratio(img,target_size):

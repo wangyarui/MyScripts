@@ -1,4 +1,3 @@
-import cv2
 from image_processing.library_augment_opencv.augment_library import *
 
 if __name__ == '__main__':
