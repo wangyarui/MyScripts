@@ -27,6 +27,7 @@ def get_files(path, rule):
     return all
 
 
+
 def load_training_data(input_folder):
     training_data = []
     if not os.path.isdir(input_folder):
