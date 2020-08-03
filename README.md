@@ -6,3 +6,7 @@
 # 我的博客园：
 
 https://www.cnblogs.com/wangyarui/
+
+# 数据集索引下载
+# 磁力下载
+https://hyper.ai/datasets
